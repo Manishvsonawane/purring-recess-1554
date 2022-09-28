@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon" href="https://www.mytheresa.com/skin/frontend/mytheresa/default/favicon.ico">
+    <link rel="stylesheet" href="./mycart.css">
+    <title>SHOPPING BAG | MYTHERESA</title>
+</head>
+<body>
+    <div id="navbar"></div>
+  
+    <div id="top">
+      <h2>YOUR SHOPPING BAG</h2>
+      <button onclick="checkingOut()">PROCEED TO CHECKOUT</button>
+    </div>
+    <div id="thead">
+      <h4>Price</h4>
+      <h4>Quantity</h4>
+      <h4>Subtotal</h4>
+    </div>
+    <hr />
+    <div id="container"></div>
+    <hr />
+    <div id="midBox">
+      <h3>YOUR CURRENT PROMOTIONS</h3>
+      <h4>Free shipping</h4>
+    </div>
+    <hr />
+    <div id="bottomCartBox">
+      <div id="bottomCartBox1">
+        <div>
+          <input type="text" placeholder="Gift Card/Store Credit/Promo Code" />
+          <button>USECODE</button>
+        </div>
+        <div>
+          <!-- <h4>Subtotal</h4> -->
+          <h4 id="grandTotal">Grand Total <span id="totalSum"></span></h4>
+          <p>VAT exception. VAT not included. Shipping not included.</p>
+        </div>
+      </div>
+      <div id="bottomCartBox2">
+        <button onclick="contShop()">CONTINUE SHOPPING</button>
+        <button onclick="checkingOut()">PROCEED TO CHECKOUT</button>
+      </div>
+    </div>
+    <hr />
+  
+    <div id="footer"></div>
+  </body>
+</html>
+<script src="./mycart.js"></script>
