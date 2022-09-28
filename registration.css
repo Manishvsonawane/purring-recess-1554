@@ -1,0 +1,93 @@
+#newsletter{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 120px;
+}
+.headings{
+    font-size: 15px;
+    color: #000;
+    letter-spacing: 1px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+
+.input-box{
+    border: 0px solid black;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0;
+    width: 40%;
+    color:#757575;
+}
+.input-box >li > label{
+  border: 0px solid red;
+  margin-left: 5px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+#form{
+    width:40%;
+}
+.form{
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+}
+.form > input,.form>select{
+    border: 1px solid #e3e3e3;
+    height: 40px;
+    color: #757575;
+}
+.form>select option{
+   color: #757575;
+   font-size: 15px;
+}
+.form>label{
+    color: #757575;
+    text-align:left;
+    font-family:sans-serif
+}
+#dob_select{
+    display: flex;
+    justify-content: space-between;
+}
+#dob_select>select{
+  border: 1px solid #e3e3e3;
+  width: 30%;
+  height: 40px;
+}
+#dob_select>select{
+    color: #757575;
+   font-size: 15px;
+}
+#checkbox{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+#benifits{
+   margin-top: 30px;
+}
+#benifits> ul> li{
+    margin-bottom: 15px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    color: #757575;
+    margin-left: 15px;
+    font-size: 15px;
+}
+#signupbtn{
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    border: none;
+    height: 40px;
+    width: 30%;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+#signupbtn:hover{
+background-color: #aba2a2;
+}
