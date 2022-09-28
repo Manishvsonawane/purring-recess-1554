@@ -1,0 +1,87 @@
+
+
+ #top {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+  }
+
+  #top h2{
+    font-size: medium;
+    font-family: Century Gothic;
+    font-style: normal;
+    color: #000000;
+  }
+
+  #top button {
+    margin-top: 40px;
+    width: 250px;
+    height: 40px;
+    color: azure;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    font-size: small;
+    font-family: Century Gothic;
+    font-style: normal;
+  }
+
+  #thead {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  #thead h4 {
+    margin: 0px 70px;
+  }
+
+  #midBox{
+    font-size: medium;
+    font-family: Century Gothic;
+    font-style: normal;
+    color: #757575;
+    font-size: 14px;
+  }
+  #bottomCartBox1 {
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    width: 95%;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #000000;
+  }
+
+  #bottomCartBox2 {
+    margin: auto;
+    display: flex;
+    width: 94%;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+  }
+
+  #bottomCartBox2 button {
+    height: 40px;
+    width: 250px;
+    border: none;
+    font-size: small;
+    font-family: Century Gothic;
+    font-style: normal;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  #bottomCartBox2 button:nth-last-child(1) {
+    height: 40px;
+    width: 250px;
+    border: none;
+    background-color: black;
+    color: azure;
+    cursor: pointer;
+  }
