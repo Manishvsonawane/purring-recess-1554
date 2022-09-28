@@ -1,0 +1,38 @@
+#navbar1{
+    height:auto;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    
+}
+
+#left_part{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    width: 300px;
+    margin-left: 90px;
+
+}
+#left_part p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: rgb(117, 117, 117);
+    
+    
+}
+#right_part{
+    display: flex;
+    width: 540px;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    margin-left: 360px;
+
+}
+#right_part p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 620;
+    color: rgb(117, 117, 117)
+}
