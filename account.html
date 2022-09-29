@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="/accounts.css">
+</head>
+<body>
+    <div id="account">
+        <div id="signup">
+            <div class="signup">
+            <p class="headings">CREATE AN ACCOUNT</p>
+            <p id="enter">Please enter the following information to create your account.</p>
+            <ul class="input-box">
+               <li class="control"><input class="radio" type="radio" name="prefix" id="prefix-Ms." value="Ms."><label for="prefix-Ms.">Ms.</label></li>
+               <li class="control"><input class="radio" type="radio" name="prefix" id="prefix-Mrs." value="Mrs."><label for="prefix-Mrs.">Mrs.</label></li>
+               <li class="control"><input class="radio" type="radio" name="prefix" id="prefix-Mr." value="Mr."><label for="prefix-Mr.">Mr.</label></li>
+            </ul>
+            <form class="form">
+            <input type="text" id="fname" placeholder="First Name *">
+            <input type="text" id="lname" placeholder="Last Name *">
+            <input type="email" id="email" placeholder="Email address*">
+            <input type="password" id="password" placeholder="Password *">
+            <input type="password" id="confirmPass" placeholder="Confirm Password *">
+            <label id="notmatch"></label>
+            <label id="checkbox">
+                <input type="checkbox">From now on I will receive the Mytheresa Newsletter with selected fashion offers. If I do not wish to receive the newsletter, I can unsubscribe at any time free of charge at privacy@mytheresa.com.
+               </label>
+               <label for="" id="checkbox">
+                I agree that Mytheresa may insert analytical web beacons into the newsletter and create a personalized user profile based on my purchase and usage behavior, including sending a notification when I have placed something in the shopping cart. Further details can be found in our Privacy Policy, clause 5. I understand that I can revoke my consent at any time by emailing privacy@mytheresa.com.
+               </label>
+            </form>
+            <p id="enter">* required fields</p>
+            <button id="signupbtn">REGISTER</button>
+        </div>
+        </div>
+        <div id="login">
+            <div class="login">
+                <p class="headings">ALREADY REGISTERED?</p>
+                <p id="enter">If you have an account with us, please log in.</p>
+                 <form class="loginform">
+                    <input type="email" id="email" placeholder="Email address*">
+                    <input type="password" id="password" placeholder="Password *">
+                 </form>
+                 <p id="enter"><a href="forgotPass.html">Forgot Your Password?</a></p>
+                 <p id="enter">* required fields</p>
+                 <button id="loginbtn">LOGIN</button>
+                 <p id="loginCheck">At Mytheresa, we keep your information secure. As a result, it will be necessary for you to log in to your account before you are able to place an order or change the information on your account. You will be asked to log in to complete your order even if you have already been greeted on the website.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<SCript type="module" src="account.js"></SCript>

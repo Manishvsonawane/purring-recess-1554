@@ -1,0 +1,169 @@
+#account{
+    border: 0px solid black;
+    display: flex;
+    width: 90%;
+    margin: auto;
+ 
+}
+.headings{
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+#point{
+    font-size: 11px;
+    font-family: sans-serif;
+    color: #757575;
+}
+#enter{
+    color: #757575;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#enter>a{
+    color:#757575;
+    font-family: sans-serif;
+}
+#enter>a:hover{
+    color: #000;
+}
+
+.input-box{
+    border: 0px solid black;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0;
+    width: 40%;
+    color:#757575;
+}
+.input-box >li > label{
+  border: 0px solid red;
+  margin-left: 5px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+#signup{
+    width:50%;
+    border-right:2px solid #e3e3e3;
+}
+#forgot{
+    width: 40%;
+    padding-left: 80px;
+}
+#forgot > input{
+    border: 1px solid #e3e3e3;
+    height: 40px;
+    color: #757575;
+    width: 80%;
+}
+.signup{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.form,.loginform{
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+}
+.loginform{
+    margin-top: 30px;
+}
+.form > input,.form>select,.loginform>input,.loginform>select{
+    border: 1px solid #e3e3e3;
+    height: 40px;
+    color: #757575;
+}
+.form>select option{
+   color: #757575;
+   font-size: 15px;
+}
+.form>label{
+    color: #757575;
+    text-align:left;
+    font-family:sans-serif
+}
+#dob_select{
+    display: flex;
+    justify-content: space-between;
+}
+#dob_select>select{
+  border: 1px solid #e3e3e3;
+  width: 30%;
+  height: 40px;
+}
+#dob_select>select{
+    color: #757575;
+   font-size: 15px;
+}
+#checkbox{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+#login{
+  border: 0px solid black;
+  width: 50%;
+}
+.login{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#loginCheck{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #757575;
+    text-align: left;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+#benifits> ul> li{
+    margin-bottom: 15px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    color: #757575;
+    margin-left: 15px;
+    font-size: 15px;
+}
+#signupbtn{
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    border: none;
+    height: 40px;
+    width: 30%;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+#signupbtn:hover{
+background-color: #aba2a2;
+}
+#loginbtn{
+    background-color: #000;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 20%;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+#loginbtn:hover{
+    background-color: #aba2a2;
+}
+#back>a{
+    color: #757575;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+#back>a:hover{
+    color: #000;
+}
+#notmatch{
+    color: red;
+    font-size: 12px;
+}
