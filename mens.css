@@ -1,0 +1,144 @@
+#main_img{
+    width: 80%;
+    /* border: 1px red solid; */
+    margin-left: 140px;
+
+}
+#main_div{
+    /* border:10px solid black; */
+}
+#main_section{
+    margin-top: 200px;
+}
+#unearth{
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#textover_img > h1{
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 65%;
+    left: 44%;
+    color: white;
+    font-size: 28px;
+    letter-spacing: -0.9px;
+    line-height: 65px;
+    font-weight: 500;
+}
+
+#shopbtn1{
+    text-decoration: none;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 82%;
+    left: 44%;
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+    letter-spacing: 1.2px;
+}
+#new_arrivals{
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+#crauser1,#crauser2,#crauser3{
+
+    width: 80%;
+    height: 500px;
+    background-color: cornflowerblue;
+    border: 1px red solid;
+    margin: auto;
+    margin-top: 40px;
+}
+#outwear{
+    position: relative;
+    width: 80%;
+    height: 550px;
+    /* background-color: cornflowerblue; */
+    /* border: 1px red solid; */
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+}
+#outwearimg > img{
+    width: 100%;
+    /* background-color: yellow; */
+    height: 100%;
+}
+#black1{
+    width: 50%;
+    background-color: black;
+    height: 100%;
+}
+.outwear-heading1{
+    color: white;
+    letter-spacing: -.47px;
+    text-align: left;
+    font-size: 28px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+.outwear-heading2{
+    color: white;
+    letter-spacing: -.47px;
+    text-align: left;
+    font-size: 28px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+
+}
+#outwear-para{
+    color: white;
+    text-align: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    letter-spacing: .4px;
+    line-height: 19px;
+}
+
+#neutrals{
+    width: 80%;
+    height: 550px;
+    /* background-color: cornflowerblue; */
+    /* border: 1px red solid; */
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+}
+#neutralsimg > img{
+    width: 100%;
+    /* background-color: yellow; */
+    height: 100%;
+}
+#black2{
+    width: 50%;
+    background-color: black;
+    height: 100%;
+}
+.neutrals-heading1{
+    color: white;
+    letter-spacing: -.47px;
+    text-align: left;
+    font-size: 28px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+#shopbtn2{
+    text-decoration: none;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+    letter-spacing: 1.2px;
+    margin-top: 40px;
+}
+#outwear-writing{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
