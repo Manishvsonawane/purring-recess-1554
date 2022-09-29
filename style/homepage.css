@@ -31,3 +31,41 @@
 #mytheresa_logo2 img{
     margin-left: 2px;
 }
+
+/* free shipping div started here */
+
+#free_shipping{
+    height: auto;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+}
+#women{
+    height: auto;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+}
+#women img{
+    width: 100%;
+}
+#kids{
+    height: auto;
+    width: 90%;
+    margin-top: 28px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+}
+#kids img{
+    width: 100%;
+}
+#life{
+    height: auto;
+    width: 90%;
+    margin-top: 28px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+}
+#life img{
+    width: 100%;
+}
