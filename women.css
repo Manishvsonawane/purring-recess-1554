@@ -246,6 +246,7 @@
 #slide-arrow-prevA,
 #slide-arrow-prevB,
 #slide-arrow-prevC {
+  top: -40%;
   left: 0;
   padding-left: 0.25rem;
   border-radius: 0 2rem 2rem 0;
@@ -254,6 +255,7 @@
 #slide-arrow-nextA,
 #slide-arrow-nextB,
 #slide-arrow-nextC {
+  top: -40%;
   right: 0;
   padding-left: 0.75rem;
   border-radius: 2rem 0 0 2rem;
@@ -354,7 +356,7 @@
 
 .service-button-wrapper {
   position: absolute;
-  top: 80%;
+  top: 70%;
   left: 45%;
   margin-top: -800px;
   text-align: center;
