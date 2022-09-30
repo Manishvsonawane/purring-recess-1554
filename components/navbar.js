@@ -1,6 +1,5 @@
-function navbar (){
-   
-    return `<div id="navbar1">
+function navbar() {
+  return `<div id="navbar1">
     <div id="left_part">
         <p>WOMEN</p>
         <p>MEN</p>
@@ -15,8 +14,6 @@ function navbar (){
         <P>Lebanon | English</P>
     </div>
 
-</div>`
-
-
+</div>`;
 }
 export default navbar;
