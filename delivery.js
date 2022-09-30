@@ -100,10 +100,9 @@ let hiddenthehiddenitems = () => {
 document.querySelector('.about-info').addEventListener('mouseenter', showthehiddenitems)
 document.querySelector('.about-info').addEventListener('mouseleave', hiddenthehiddenitems)
 
+document.querySelector("#back_bag_page").addEventListener('click',GoBackCartBagPage);
 let GoBackCartBagPage = () => {
-    window.location.href = 'myCart.html';
+    window.location.href ="myCart.html";
 }
-document.querySelector("#back_bag_page").addEventListener('click', GoBackCartBagPage);
 
-document.querySelector("#back_bag_page").style.cursor = 'pointer'
-document.querySelector("#takeaction").style.cursor = 'pointer'
+

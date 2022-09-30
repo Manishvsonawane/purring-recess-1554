@@ -881,3 +881,9 @@ hr {
 #manufooter{
     margin-bottom: 30px;
 }
+#back_bag_page{
+    cursor: pointer;
+}
+#takeaction{
+    cursor: pointer;
+}
