@@ -1,0 +1,86 @@
+#pageinfo > img {
+  width: 100%;
+}
+#clothingnav {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  color: #757575;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+#sort {
+  border: 1px solid white;
+  width: 7%;
+  color: #757575;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+#clothes {
+  border-top: 2px solid #e3e3e3;
+  border-bottom: 2px solid #e3e3e3;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+#filter {
+  border-bottom: 0px solid black;
+  width: 20%;
+  color: #757575;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+}
+#filter > p:hover {
+  color: black;
+  cursor: pointer;
+}
+#products {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 0px solid black;
+  text-align: center;
+  gap: 30px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+#img,
+#hovimg {
+  width: 90%;
+  cursor: pointer;
+}
+#prodTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #757575;
+  font-size: 14px;
+}
+#prodPrice {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#cartBtn {
+  background-color: #f2f2f2;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+#cartBtn:hover {
+  background-color: aqua;
+}
+#head {
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
