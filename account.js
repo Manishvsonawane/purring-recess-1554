@@ -1,3 +1,16 @@
+import navbar from "./components/navbar.js"
+
+let navbar_div = document.getElementById("navbar")
+navbar_div.innerHTML = navbar()
+
+import footer from "./components/footer.js"
+
+let footer_div = document.getElementById("footer")
+footer_div.innerHTML = footer()
+
+
+
+
 document.querySelector("#signupbtn").addEventListener("click",signupbtn)
 
 function signupbtn(){
@@ -35,3 +48,4 @@ function loginbtn(){
         alert("Incorrect Password or email")
     }
 }
+
