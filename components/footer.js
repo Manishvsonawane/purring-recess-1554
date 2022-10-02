@@ -12,7 +12,7 @@ function footer (){
     <hr>
     <div id="fotter1_inside_div">
         <h1>SHOP WHENEVER, WHEREVER WITH THE APP</h1>
-        <img src="./purring-recess-1554/images/Mytheresa google-Luxury-Fashion-Designer-Shopping.png">
+        <img src="./images/Mytheresa google-Luxury-Fashion-Designer-Shopping.png">
     </div>
     <hr>
     <div id="fotter_lower">
@@ -47,11 +47,11 @@ function footer (){
             <div id="get_trend_search">
                 <input type="text" placeholder="your email address here...">
                 <div id="signup">
-                    <img src="./purring-recess-1554/images/Mytheresa-signup-Luxury-Fashion-Designer-Shopping.png">
+                    <img src="./images/Mytheresa-signup-Luxury-Fashion-Designer-Shopping.png">
                 </div>
             </div>
             <div id="icons_div">
-                <img src="./purring-recess-1554/images/Mytheresa- icons-Luxury-Fashion-Designer-Shopping.png">
+                <img src="./images/Mytheresa- icons-Luxury-Fashion-Designer-Shopping.png">
             </div>
             
         </div>
@@ -59,7 +59,7 @@ function footer (){
     </div>
     <hr>
     <div id="payment_div">
-        <img src="./purring-recess-1554/images/Wishlist-Alerts-Keep-your-favourite-Items-Mytheresa-removebg-preview.png">
+        <img src="./images/Wishlist-Alerts-Keep-your-favourite-Items-Mytheresa-removebg-preview.png">
     </div>
     <div id="copyright">
         <h2>copyright © 2006-2022 mytheresa.com</h2>
