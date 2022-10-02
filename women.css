@@ -3,9 +3,9 @@
   /* border: 1px red solid; */
   margin-left: 140px;
 }
-#main_section {
+/* #main_section {
   margin-top: 200px;
-}
+} */
 #unearth {
   font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
     sans-serif;
@@ -246,7 +246,6 @@
 #slide-arrow-prevA,
 #slide-arrow-prevB,
 #slide-arrow-prevC {
-
   top: -40%;
 
   left: 0;
@@ -257,7 +256,6 @@
 #slide-arrow-nextA,
 #slide-arrow-nextB,
 #slide-arrow-nextC {
-
   top: -40%;
 
   right: 0;

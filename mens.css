@@ -3,9 +3,9 @@
   /* border: 1px red solid; */
   margin-left: 140px;
 }
-#main_section {
+/* #main_section {
   margin-top: 200px;
-}
+} */
 #unearth {
   font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
     sans-serif;
@@ -35,7 +35,7 @@
     sans-serif;
   font-size: 12px;
   position: absolute;
-  top: 103%;
+  top: 90%;
   left: 78%;
   background-color: antiquewhite;
   color: black;
@@ -246,7 +246,6 @@
 #slide-arrow-prevA,
 #slide-arrow-prevB,
 #slide-arrow-prevC {
-
   top: -40%;
 
   left: 0;
