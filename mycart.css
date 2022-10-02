@@ -1,4 +1,46 @@
 
+#containers{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+#containers>div{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 20px 0px 20px 0px;
+}
+#containers>div>img{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 80%;
+}
+.manudiv>p{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.manudiv>h3{
+  text-align: center;
+}
+.remove_btn{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background:linear-gradient(to left,rgb(234, 147, 147),red);
+    
+}
+.remove_btn:hover{
+    transform: scale(1.5,1.6);
+    background: linear-gradient(rgb(237, 191, 230),rgb(251, 0, 255));
+}
 
  #top {
     display: flex;
