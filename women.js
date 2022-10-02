@@ -5,6 +5,12 @@ let navbar_div = document.getElementById("navbar");
 
 navbar_div.innerHTML = navbar();
 
+//--------- footrr import ----
+import footer from "./components/footer.js";
+//console.log('footer:', footer);
+let footer_div = document.getElementById("footer");
+footer_div.innerHTML = footer();
+
 //---------slider carousel-----
 
 let slidesContainerA = document.getElementById("slides-containerA");

@@ -1,6 +1,5 @@
-function footer (){
-   
-    return `<div id="fotter1">
+function footer() {
+  return `<div id="fotter1">
     <hr>
     <div id="fotter1_inside_div">
         <h1>MYTHERESA – LUXURY FASHION AND DESIGNER SHOPPING</h1>
@@ -66,8 +65,6 @@ function footer (){
         <h2>terms of use privacy policy imprint</h2>
     </div>
     
-</div>`
-
-
+</div>`;
 }
 export default footer;
